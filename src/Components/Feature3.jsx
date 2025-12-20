@@ -11,12 +11,12 @@ const Feature3 = () => {
      viewport={{once:true}}
     
     className='lg:w-full max-w-full bg-gray-100 py-10 '>
-      <div className='mx-auto grid lg:grid-cols-2 grid-cols-1 items-center min-h-[700px] px-4 lg:px-48 gap-10'>
-      <div className='lg:mt-0 mt-10'>
+      <div className='mx-auto grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 items-center min-h-[700px] px-4 lg:px-48 gap-10'>
+      <div className='lg:mt-0 mt-10 lg:ml-0 ml-10'>
         <img src={Group330} alt="" />
       </div>
 
-      <div className='lg:-mt-10 lg:w-0 w-[360px]'>
+      <div className='lg:-mt-10 lg:ml-0 md:ml-1 ml-12 lg:w-0 w-[360px]'>
         <h2 className='text-4xl font-sans font-semibold lg:-ml-5 ml-5 lg:w-96'>
           Get direct orders from our customers
         </h2>
