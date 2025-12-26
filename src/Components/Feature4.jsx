@@ -11,7 +11,7 @@ const Feature4 = () => {
    transition={{ type: "spring", stiffness: 20 }}
 
   
-  className='relative min-h-[750px] bg-[#FB8E0B] lg:w-full max-w-full lg:px-0 px-5 my-0'>
+  className='"relative w-full min-h-[750px] bg-[#FB8E0B] px-5 lg:px-0 my-0'>
       <div className=' flex flex-col justify-center items-start text-left mx-auto 
        lg:py-20 max-w-[250px]'>
           <h1 className='text-3xl font-sans font-semibold text-white text-center leading-tight lg:-mt-5 md:mt-8 mt-10'>

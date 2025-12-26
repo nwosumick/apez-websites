@@ -24,7 +24,7 @@ const Feature2 = () => {
       </div>
 
       {/* TEXT — shows below image on mobile */}
-      <div className='order-2 lg:order-1 md:order-1 lg:mt-96 md:mt-2 -mt-40 mx-5 '>
+      <div className='order-2 lg:order-1 md:order-1 lg:mt-96 md:mt-2 -mt-40 mx-5 w-full bg-red-500 '>
         <h2 className='text-4xl text-[#1B1C20] font-sans font-semibold lg:w-96 md:w-96 lg:-mt-20 -mt-10 md:mt-28 md:mx-10 '>
           Start selling directly inside conversations
         </h2>

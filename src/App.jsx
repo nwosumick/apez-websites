@@ -10,7 +10,7 @@ import Header from './Components/Navbar'
 
 const App = () => {
   return (
-    <>
+    <div className='bg-red-500 w-full'>
      <Header/>
      <Hero/>
      <FeatureList/>
@@ -19,7 +19,7 @@ const App = () => {
      <Feature3/>
      <Feature4/>
      <Footer/>
-    </>
+    </div>
   )
 }
 
