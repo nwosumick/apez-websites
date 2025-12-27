@@ -5,7 +5,7 @@ import Ellipse4 from '../assets/Ellipse 4.png'
 import Ellipse5 from '../assets/Ellipse 5.png'
 import { FiMinus } from 'react-icons/fi'
 import { FaStar, FaRegStar } from 'react-icons/fa'
-import image from '../assets/image.svg'
+import image2 from '../assets/image2.svg'
 const Hero = () => {
   return (
     
@@ -70,7 +70,7 @@ const Hero = () => {
          </div>
          </div>
          <div className='w- -mt-3'>
-           <img src={image} alt="" />
+           <img src={image2} alt="" />
          </div>
        
 
