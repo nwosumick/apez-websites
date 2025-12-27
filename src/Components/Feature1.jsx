@@ -1,4 +1,4 @@
-import Image from '../assets/image.png'
+import Image from '../assets/Image.png'
 import { motion } from 'framer-motion'
 
 const Feature1 = () => {
