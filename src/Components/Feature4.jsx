@@ -1,6 +1,6 @@
 import React from 'react'
 import photo from '../assets/photo.png'
-import fhoto from '../assets/fhoto.png'
+import photo2 from '../assets/photo2.png'
 import { motion } from 'framer-motion'
 
 const Feature4 = () => {
@@ -57,7 +57,7 @@ const Feature4 = () => {
             <div className="w-4 h-4 bg-white absolute bottom-[-8px] left-1/2 -translate-x-1/2 rotate-45"></div>
 
             <div className="flex flex-row items-center lg:mt-6 md:mt-5 mt-9 lg:mx-24 mx-14 gap-3">
-               <img src={fhoto} className="w-12 h-12" />   
+               <img src={photo2} className="w-12 h-12" />   
             <div className="flex flex-col items-start ">
                <p className="text-white font-bold py-2">
       <span className="text-white mx-1">Esther</span>
