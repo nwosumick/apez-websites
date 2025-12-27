@@ -1,4 +1,4 @@
-import image from '../assets/image.png'
+import Image from '../assets/image.png'
 import { motion } from 'framer-motion'
 
 const Feature1 = () => {
@@ -10,7 +10,7 @@ const Feature1 = () => {
    viewport={{once:true}}
    className='bg-gray-100 w-full min-h-[600px] sm:min-h-[800px] mt-24 md:mt-20 lg:-mt-64  px-4 md:px-16 lg:px-48 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 items-center gap-10 overflow-x-hidden'>
       <div className='lg:mt-0 md:-mt-10 mt-5 w-full'>
-          <img src={image} alt="" className='w-full max-w-full object-contain' />  
+          <img src={Image} alt="" className='w-full max-w-full object-contain' />  
       </div>
       
       <div className='lg:mt-[150px] md:-mt-10 -mt-16 lg:ml-32 md:ml-25  '>
