@@ -21,7 +21,8 @@ const Footer = () => {
         </button>
         </div>
 
-        <div className='lg:ml-80 lg:mt-10 mt-10 justify-center items-center '>
+        <div className='lg:ml-80 md:ml-44 lg:mt-10 mt-10 justify-center items-center'>
+          <div className=''>
           <img src={Logo} alt="" className='lg:ml-0 ml-32'/>
 
           <ul className='flex flex-row lg:ml-96 ml-10 lg:-mt-7 mt-5 gap-7'>
@@ -36,12 +37,13 @@ const Footer = () => {
                <FiFacebook strokeWidth={2.5} size={20} className='text-orange-500' />
                <FiInstagram strokeWidth={2.5} size={20} className='text-orange-500' />
                <FiGithub strokeWidth={2.5} size={20} className='text-orange-500' />
+               </div>
             </div>
         </div>
 
-        <div className='pb-8 lg:w-[1200px]  mx-auto border-b-2 border-gray-200'>
+        <div className='pb-8 lg:w-[1500px] mx-auto border-b-2 border-gray-200'>
         </div>
-        <div className='font-sans lg:ml-60 ml-10 lg:mt-7 mt-5'>
+        <div className='font-sans lg:ml-60 md:ml-60 ml-10 lg:mt-7 mt-5'>
            <p className=' text-gray-400 '>
            © Copy 2025, All Right Reserved 
            </p>
@@ -50,7 +52,7 @@ const Footer = () => {
              <p className='font-sans lg:ml-[1185px] ml-10 lg:-mt-6 mt-2 '>
               <span className='text-gray-400 '>Privacy Policy</span>
               <span className='ml-10'> </span>
-              <span className='text-gray-400 lg:ml-5 '>Terms & Conditions</span>
+              <span className='text-gray-400 lg:ml-5 md:ml-96 '>Terms & Conditions</span>
            </p>
         </div>
 

@@ -15,7 +15,7 @@ const Hero = () => {
     whileInView={{opacity: 1, y:0}}
     viewport={{once: true}}
     
-    className=' w-full overflow-x-hidden pt-24 lg:px-40 md:px-20 px-6 lg:py-40 md:py-32 py-20 grid md:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-10 bg-red-500'>
+    className=' w-full overflow-x-hidden pt-24 lg:px-40 md:px-20 px-6 lg:py-40 md:py-32 py-20 grid md:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-10 '>
      
       <div className='flex flex-col justify-center items-start'>
         <h1 className='text-left text-4xl md:text-5xl font-bold leading-snug md:leading-tight lg:-mt-20 lg:mx-10 md:mx-10 '>Start chatting with <br /> customers, anytime, <br /> anywhere with Apex</h1>

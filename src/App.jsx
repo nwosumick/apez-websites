@@ -10,15 +10,17 @@ import Header from './Components/Navbar'
 
 const App = () => {
   return (
-    <div className='bg-red-500 w-full'>
-     <Header/>
+    <div className=' w-full'>
+      <div>
+     <Header/> 
      <Hero/>
      <FeatureList/>
      <Feature1/>
-     <Feature2/>
-     <Feature3/>
+     {/* <Feature2/> */}
+     {/* <Feature3/> */}
      <Feature4/>
      <Footer/>
+     </div>
     </div>
   )
 }
